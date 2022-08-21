@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BGLASkill</title>
+    <!--
+
+    Template 2108 Dashboard
+
+	http://www.tooplate.com/view/2108-dashboard
+
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/fullcalendar.min.css">
+    <!-- https://fullcalendar.io/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/tooplate.css">
+
+    <style>
+        .form-group .form-check-inline {
+            min-width: 14em;
+            margin: 4px; /* to add gap between rows */
+        }
+    </style>
+</head>
+
+<body id="reportsPage">
+    <div class="" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img id="Logo" src="img/logo_337.png" />
+                            <h1 class="tm-site-title mb-0">BGLASkill</h1>
+                        </a>
+                        <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Skill Set Matching
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="statistic.html">Statistic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row tm-content-row tm-mt-big">
+                <div class="col-xl-12 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                    <div class="bg-white tm-block h-100">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h2 class="tm-block-title d-inline-block">Statistic</h2>
+
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <form action="" class="tm-signup-form">
+                                <div class="form-group">
+                                    <label for="region">Region</label>
+                                    <select class="custom-select" id="region">
+                                        <option value="0" selected>All</option>
+                                        <option value="1">Barossa</option>
+                                        <option value="2">Gawler</option>
+                                        <option value="3">Light</option>
+                                        <option value="4">Adelaide Plains</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
+                                        <label class="form-check-label" for="inlineCheckbox1">ALTONA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+                                        <label class="form-check-label" for="inlineCheckbox2">ANGASTON</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
+                                        <label class="form-check-label" for="inlineCheckbox3">BAROSSA GOLDFIELDS</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5" checked>
+                                        <label class="form-check-label" for="inlineCheckbox5">DAVEYSTON</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6" checked>
+                                        <label class="form-check-label" for="inlineCheckbox6">EVANSTON</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7" checked>
+                                        <label class="form-check-label" for="inlineCheckbox7">EVANSTON GARDENS</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8" checked>
+                                        <label class="form-check-label" for="inlineCheckbox8">EVANSTON PARK</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9" checked>
+                                        <label class="form-check-label" for="inlineCheckbox9">EVANSTON SOUTH</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option10" checked>
+                                        <label class="form-check-label" for="inlineCheckbox10">FLAXMAN VALLEY</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option11" checked>
+                                        <label class="form-check-label" for="inlineCheckbox11">FREELING</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option12" checked>
+                                        <label class="form-check-label" for="inlineCheckbox12">GAWLER</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option13" checked>
+                                        <label class="form-check-label" for="inlineCheckbox13">GAWLER BELT</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option14" checked>
+                                        <label class="form-check-label" for="inlineCheckbox14">GAWLER EAST</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option15" checked>
+                                        <label class="form-check-label" for="inlineCheckbox15">GAWLER SOUTH</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox16" value="option16" checked>
+                                        <label class="form-check-label" for="inlineCheckbox16">GREENOCK</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox17" value="option17" checked>
+                                        <label class="form-check-label" for="inlineCheckbox17">HAMILTON</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox18" value="option18" checked>
+                                        <label class="form-check-label" for="inlineCheckbox18">HILLIER</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox19" value="option19" checked>
+                                        <label class="form-check-label" for="inlineCheckbox19">KALBEEBA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox20" value="option20" checked>
+                                        <label class="form-check-label" for="inlineCheckbox20">KAPUNDA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox21" value="option21" checked>
+                                        <label class="form-check-label" for="inlineCheckbox21">KINGSFORD</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option22" checked>
+                                        <label class="form-check-label" for="inlineCheckbox22">LOWER LIGHT</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox23" value="option23" checked>
+                                        <label class="form-check-label" for="inlineCheckbox23">LYNDOCH</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox24" value="option24" checked>
+                                        <label class="form-check-label" for="inlineCheckbox24">MALLALA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox25" value="option25" checked>
+                                        <label class="form-check-label" for="inlineCheckbox25">MARANANGA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox26" value="option26" checked>
+                                        <label class="form-check-label" for="inlineCheckbox26">MOUNT PLEASANT</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox27" value="option27" checked>
+                                        <label class="form-check-label" for="inlineCheckbox27">NURIOOTPA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox28" value="option28" checked>
+                                        <label class="form-check-label" for="inlineCheckbox28">ROSEWORTHY</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox29" value="option29" checked>
+                                        <label class="form-check-label" for="inlineCheckbox29">ROWLAND FLAT</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox30" value="option30" checked>
+                                        <label class="form-check-label" for="inlineCheckbox30">SEPPELTSFIELD</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox31" value="option31" checked>
+                                        <label class="form-check-label" for="inlineCheckbox31">SHEA-OAK LOG</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox32" value="option32" checked>
+                                        <label class="form-check-label" for="inlineCheckbox32">STOCKWELL</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox33" value="option33" checked>
+                                        <label class="form-check-label" for="inlineCheckbox33">TANUNDA</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox34" value="option34" checked>
+                                        <label class="form-check-label" for="inlineCheckbox34">TWO WELLS</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox35" value="option35" checked>
+                                        <label class="form-check-label" for="inlineCheckbox35">WILLASTON</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox36" value="option36" checked>
+                                        <label class="form-check-label" for="inlineCheckbox36">WILLIAMSTOWN</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row tm-content-row tm-mt-big">
+                            <div class="col-xl-4 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                                <div class="bg-white tm-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6>Number of Jobs By Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="img/statistic1.png" alt="Statistic 1" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                                <div class="bg-white tm-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6>Jobs By Business</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="img/statistic2.png" alt="Statistic 2" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tm-content-row tm-mt-big">
+                            <div class="col-xl-6 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                                <div class="bg-white tm-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6>Jobs Trend</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="img/statistic3.png" alt="Statistic 3" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                                <div class="bg-white tm-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6>Forcast by Number of Jobs</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="img/statistic4.png" alt="Statistic 4" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tm-content-row tm-mt-big">
+                            <div class="col-xl-12 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+                                <div class="bg-white tm-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6>Jobs Filter by Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="img/statistic5.png" alt="Statistic 5" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" id="searchResultList" style="display:none;">
+                            25 Jobs
+                            <table class="table table-hover table-striped tm-table-striped-even mt-3">
+                                <thead>
+                                    <tr class="tm-bg-gray">
+                                        <th scope="col">Industry</th>
+                                        <th scope="col" class="text-center">Jobs</th>
+                                        <th scope="col" class="text-center">Location</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tm-industry-name">Agriculture, Forestry and Fishing</td>
+                                        <td class="text-center">10</td>
+                                        <td class="text-center">Lyndoch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tm-industry-name">Mining</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">Lyndoch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tm-industry-name">Manufacturing</td>
+                                        <td class="text-center">2</td>
+                                        <td class="text-center">Lyndoch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tm-industry-name">Electricity, Gas, Water and Waste Services</td>
+                                        <td class="text-center">5</td>
+                                        <td class="text-center">Lyndoch</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tm-table-mt tm-table-actions-row" id="pagination" style="display: none;">
+                            <div class="tm-table-actions-col-right">
+                                <span class="tm-pagination-label">Page</span>
+                                <nav aria-label="Page navigation" class="d-inline-block">
+                                    <ul class="pagination tm-pagination">
+                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <span class="tm-dots d-block">...</span>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">13</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">14</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="row tm-mt-small">
+                <div class="col-12 font-weight-light">
+                    <p class="tm-bg-theme text-white py-2 px-4">
+                        <small>&copy; Copyright <span id="copyrightYear"></span>, BGLASkill</small>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="js/moment.min.js"></script>
+    <!-- https://momentjs.com/ -->
+    <script src="js/utils.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <!-- http://www.chartjs.org/docs/latest/ -->
+    <script src="js/fullcalendar.min.js"></script>
+    <!-- https://fullcalendar.io/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script src="js/tooplate-scripts.js"></script>
+    <script>
+        $("#searchBtn").click(function() {
+            $("#searchResultList").show();
+            $("#pagination").show()
+        }); 
+        $(function () {
+            $("#region").change(function() {
+                var str = "";
+                if($( "#region option:selected" ).val()==0){
+                    $("input[id^='inlineCheckbox']").parent().hide();
+                    $("input[id^='inlineCheckbox']").parent().show();
+                }
+                else if($( "#region option:selected" ).val()==1){
+                    $("input[id^='inlineCheckbox']").parent().hide();
+                    $("#inlineCheckbox1").parent().show();
+                    $("#inlineCheckbox2").parent().show();  
+                    $("#inlineCheckbox3").parent().show(); 
+                    $("#inlineCheckbox10").parent().show(); 
+                    $("#inlineCheckbox19").parent().show();
+                    $("#inlineCheckbox23").parent().show();
+                    $("#inlineCheckbox26").parent().show();
+                    $("#inlineCheckbox27").parent().show();
+                    $("#inlineCheckbox29").parent().show();
+                    $("#inlineCheckbox32").parent().show();
+                    $("#inlineCheckbox33").parent().show();
+                    $("#inlineCheckbox36").parent().show();
+                }
+                else if($( "#region option:selected" ).val()==2){
+                    $("input[id^='inlineCheckbox']").parent().hide();
+                    $("#inlineCheckbox6").parent().show();
+                    $("#inlineCheckbox7").parent().show();  
+                    $("#inlineCheckbox8").parent().show(); 
+                    $("#inlineCheckbox9").parent().show(); 
+                    $("#inlineCheckbox12").parent().show();
+                    $("#inlineCheckbox13").parent().show();
+                    $("#inlineCheckbox14").parent().show();
+                    $("#inlineCheckbox15").parent().show();
+                    $("#inlineCheckbox18").parent().show();
+                    $("#inlineCheckbox35").parent().show();
+                }
+                else if($( "#region option:selected" ).val()==3){
+                    $("input[id^='inlineCheckbox']").parent().hide();
+                    $("#inlineCheckbox4").parent().show(); 
+                    $("#inlineCheckbox5").parent().show(); 
+                    $("#inlineCheckbox11").parent().show();
+                    $("#inlineCheckbox16").parent().show();
+                    $("#inlineCheckbox17").parent().show();
+                    $("#inlineCheckbox20").parent().show();
+                    $("#inlineCheckbox21").parent().show();
+                    $("#inlineCheckbox25").parent().show();
+                    $("#inlineCheckbox28").parent().show();
+                    $("#inlineCheckbox30").parent().show();
+                    $("#inlineCheckbox31").parent().show();
+                }
+                else if($( "#region option:selected" ).val()==4){
+                    $("input[id^='inlineCheckbox']").parent().hide();
+                    $("#inlineCheckbox22").parent().show(); 
+                    $("#inlineCheckbox24").parent().show(); 
+                    $("#inlineCheckbox34").parent().show();
+                }
+            }); 
+            $('.tm-industry-name').on('click', function () {
+                window.location.href = "industry.html";
+            });
+            let d = new Date();
+            $("#copyrightYear").html(d.getFullYear());
+        })
+    </script>
+</body>
+</html>
